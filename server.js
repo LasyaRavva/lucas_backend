@@ -30,6 +30,10 @@ app.use('/api/users', usersRoutes)
 const conversationRoutes = require('./routes/conversation')
 app.use('/api/conversations', conversationRoutes)
 app.use('/api/conversation', conversationRoutes)
+
+const pronunciationRoutes = require('./routes/pronunciation')
+app.use('/api/pronunciation', pronunciationRoutes)
+
 // TODO: Add routes
 app.get('/api', (req, res) => {
   res.json({ message: 'API running' })
