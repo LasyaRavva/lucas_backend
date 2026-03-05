@@ -1,3 +1,7 @@
+Deployment_URL: https://lucasfrontend.netlify.app/ 
+Frontend_repo: https://github.com/LasyaRavva/lucas_frontend 
+Backend_repo: https://github.com/LasyaRavva/lucas_backend
+
 # Lucas Backend
 
 ## Project Overview
